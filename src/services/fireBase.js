@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
-import { addDoc, collection, getFirestore } from "firebase/firestore"
+import { addDoc, getFirestore } from "firebase/firestore"
 
 import stockProducts from "../components/Data/Data"
 
