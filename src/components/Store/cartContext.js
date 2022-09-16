@@ -1,7 +1,4 @@
 import React, { createContext, useState } from "react";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-
 
 export const cartContext = createContext();
 
@@ -43,15 +40,9 @@ export function CartProvider ({children}) {
         setCart([...newCart])
     }
 
-    function MySwal () {
-        const MySwal = withReactContent(Swal)                     
-            MySwal.fire({
-            title: <strong>Tu compra se realizo con exito</strong>,
-            icon: 'success'
-            })}
    
     return (
-        <cartContext.Provider value = {{cart, addToCart, deleteCart, deleteProd, MySwal}} >
+        <cartContext.Provider value = {{cart, addToCart, deleteCart, deleteProd}} >
             {children}
         </cartContext.Provider>
     )
