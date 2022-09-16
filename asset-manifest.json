@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77ec158e.css",
+    "main.js": "/static/js/main.b8c8091b.js",
+    "static/media/shopping-cart.svg": "/static/media/shopping-cart.17e2a6f719816cf74282830dcebaecec.svg",
+    "index.html": "/index.html",
+    "main.77ec158e.css.map": "/static/css/main.77ec158e.css.map",
+    "main.b8c8091b.js.map": "/static/js/main.b8c8091b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77ec158e.css",
+    "static/js/main.b8c8091b.js"
+  ]
+}
